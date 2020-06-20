@@ -1,0 +1,86 @@
+.picture{
+  outline: 1px solid #777777;
+  width: 300px;
+  height: 200px;
+  margin-left: 50px;
+  margin-top: 50px;
+}
+.cup{
+  width: 200px;
+  height: 150px;
+  background-color: #b1aaa5;
+  border-radius: 30px;
+  border-radius: 0 0 30px 30px;
+              /*左上右上右下左下*/
+  margin-left: 30px;
+  position: absolute;
+}
+
+.handle{
+  width: 100px;
+  height: 100px;
+  background-color: #b1aaa5;
+  border-radius: 0 30px 30px 0;
+  position: absolute;
+  margin-left: 190px;
+  margin-top: 15px;
+}
+
+.handle2{
+  width: 80px;
+  height: 70px;
+  background-color: #fff;
+  border-radius: 0 20px 20px 0;
+  margin-top: 15px;
+  position: absolute;
+}
+
+.plate{
+  position: absolute;
+  width: 250px;
+  height: 10px;
+  background-color: #b1aaa5;
+  margin-top: 150px;
+  margin-left: 5px;
+  border-radius: 0 0 200px 200px;
+}
+.plate2{
+  position: absolute;
+  width: 200px;
+  height: 10px;
+  background-color: #b1aaa5;
+  margin-top: 160px;
+  margin-left: 30px;
+  border-radius: 0 0 100px 100px;
+}
+
+.name{
+  position: absolute;
+  margin-top: 170px;
+  width: 300px;
+  text-align: center;
+/*   outline: 1px solid #777777; */
+}
+
+.coffee1{
+  position: absolute;
+  background-color: #6e4a30;
+  width: 180px;
+  height: 30px;
+  border-radius: 0 0 30px 30px;
+  margin-top: 110px;
+  margin-left: 10px;
+  text-align: center;
+  color: #fff;
+}
+
+.water{
+  position: absolute;
+  background-color: #22c2d4;
+  width: 180px;
+  height: 50px;
+  margin-top: 60px;
+  margin-left: 10px;
+  text-align: center;
+  color: #fff;
+}
